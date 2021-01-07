@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">ThinQ TV</string>
+    <string name="conference_name_hint">Enter Room Name</string>
+    <string name="join_button_hint">Join</string>
+    <string name="screen_name_hint">Enter Your Name</string>
+    <string name="welcomeMSG">A video chat community with powerful women
+        role models in STEM, here to help you navigate your career!</string>
+    <string name="defaultTryConversation">Join the conversation!</string>
+    <string name="getInvolved">Get involved</string>
+    <string name="mentor_hours">Mentor Hours</string>
+    <string name="conversation">Conversations</string>
+    <string name="expand">Expand</string>
+    <string name="hosted_by">Hosted by</string>
+    <string name="happening_now">Happening now - Join the Conversation!</string>
+    <string-array name="eventFilters">
+        <item>All Events \u25bc</item>
+        <item>This Week \u25bc</item>
+        <item>Next Week \u25bc</item>
+        <item>Future \u25bc</item>
+        <item>Your RSVPs \u25bc</item>
+    </string-array>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_register">Sign up</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="invalid_email">Invalid email.</string>
+    <string name="invalid_name">Invalid name.</string>
+    <string name="invalid_permalink">Invalid permalink.</string>
+    <string name="invalid_password">Password must be at least 8 characters.</string>
+    <string name="invalid_password_confirmation">Passwords do not match.</string>
+    <string name="password_empty">Password must not be empty!</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_failed">Register failed</string>
+    <string name="could_not_reach_server">"Could not reach server"</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="tos_agreement">By signing in, you agree to the Thinq.tv terms of service.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_up_prompt">Not a member? Sign up!</string>
+    <string name="name_prompt">Name</string>
+    <string name="permalink_prompt">Permalink</string>
+    <string name="confirm_password_prompt">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="server_response_error">Problem with server response.</string>
+    <string name="email_taken">Email has already been taken.</string>
+    <string name="permalink_taken">Permalink has already been taken.</string>
+    <string name="generic_input_error">There is a problem with your input</string>
+    <string name="profile_image_label">Profile Image (150px x 150px is best)</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="about_you">About You</string>
+    <string name="fellowship_topics">Fellowship Topics</string>
+    <string name="topic_1">Topic 1</string>
+    <string name="topic_2">Topic 2</string>
+    <string name="topic_3">Topic 3</string>
+    <string name="banner_image_label">Banner Image (1500px x 300px is best)</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="add_event_title">Host a live video conversation</string>
+    <string name="event_title_prompt">Conversation Title</string>
+    <string name="date_prompt">Date</string>
+    <string name="time_prompt">Time</string>
+    <string name="click_to_set">Select</string>
+    <string name="length_label">Length</string>
+    <string name="initial_length">1:00</string>
+    <string name="current_password">Current Password (Required)</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="profile_picture_description">profile picture</string>
+    <string name="banner_picture_description">banner picture</string>
+    <string name="description_prompt">Conversation Description</string>
+    <string name="donate">$$</string>
+
+    <string name="facebook_app_id">325409095260822</string>
+    <string name="fb_login_protocol_scheme">fb325409095260822</string>
+    <string name="fb_sign_in_tag">FB_SIGN_IN</string>
+    <string name="server_url_fb_sign_in">https://thinq.tv/api/v1/oauth/facebook</string>
+
+    <string name="server_client_id">923521097239-jo03cpden95g1lojtmupibjf9t0930e0.apps.googleusercontent.com</string>
+    <string name="server_url_google_sign_in">https://thinq.tv/api/v1/oauth/google</string>
+    <string name="google_sign_in_tag">GOOGLE_SIGN_IN</string>
+
+    <string name="login_url">https://thinq.tv/api/v1/login</string>
+    <string name="register_url">https://thinq.tv/api/v1/register</string>
+    <string name="events_url">https://thinq.tv/api/v1/events</string>
+    <string name="users_url">https://thinq.tv/api/v1/users</string>
+    <string name="rsvps_url">https://thinq.tv/api/v1/users/rsvps</string>
+    <string name="merchandise_url">https://thinq.tv/api/v1/merchandise</string>
+
+    <string name="stripe_ephemeral_key_url">https://thinq.tv/api/v1/stripe/ephemeral-key</string>
+    <string name="stripe_url">https://thinq.tv/api/v1/stripe</string>
+    <string name="stripe_api_version">2020-08-27</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drop_in_room_name">DropIn</string>
+    <string name="conversation_room_name">Conversation</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_account">Edit Account Settings</string>
+    <string name="schedule_a_conversation">Schedule a Conversation</string>
+    <string name="phone_number">6028883089</string>
+    <string name="activity">activity</string>
+    <string name="profile_settings_activity">ProfileSettingsActivity</string>
+    <string name="account_settings_activity">AccountSettingsActivity</string>
+    <string name="add_event_activity">AddEventActivity</string>
+    <string name="main_activity">MainActivity</string>
+    <string name="conversation_fragment">conversation_fragment</string>
+    <string name="fragment">fragment</string>
+    <string name="aboutus_fragment">aboutus_fragment</string>
+    <string name="inviteus_fragment">inviteus_fragment</string>
+    <string name="profile_fragment">profile_fragment</string>
+    <string name="welcome_fragment">welcome_fragment</string>
+    <string name="connect_to_stripe">Connect to Stripe</string>
+
+    <string name="merchandise_title_prompt">Title</string>
+    <string name="merchandise_price_prompt">Price</string>
+    <string name="merchandise_description_prompt">Description</string>
+    <string name="add_merchandise_title">Add Merchandise</string>
+    <string name="edit_merchandise_title">Edit Merchandise</string>
+    <string name="merchandise_type_label">Type</string>
+    <string name="merchandise_reward_button">Reward</string>
+    <string name="merchandise_donation_button">Donation</string>
+    <string name="merchandise_deadline_label">Deadline</string>
+    <string name="merchandise_date_button">Choose Date</string>
+    <string name="merchandise_price_label">Price</string>
+    <string name="merchandise_image_label">Image</string>
+    <string name="merchandise_button_label">Merchandise</string>
+    <string name="add_merchandise_button">Add Merchandise</string>
+    <string name="merchandise_loading_error">Error: Unable to load merchandise.</string>
+
+    <string name="stripe_settings">Stripe Settings</string>
+    <string name="pay">Pay</string>
+    <string name="temporary_holder">Temporary Holder</string>
+    <string name="random_text">Random text</string>
+    <string name="random_text_long">Random text hbhbhbhbhbhbhbhbbbhbbhbhbhbhbhbhbhbhbhbh</string>
+    <string name="invite_us_to_speak">Invite Us to Speak</string>
+    <string name="about_us">About Us</string>
+    <string name="women_who_inspire">Women who inspire you to</string>
+    <string name="thin">Thin </string>
+    <string name="invite_dr_schaefer">Invite Dr. Schaefer to Speak</string>
+    <string name="full_name">Full Name</string>
+    <string name="full_name_hint">ex: Jon Doe</string>
+    <string name="phone_number_phrase">Phone Number</string>
+    <string name="phone_number_hint">(999)999-9999</string>
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+    <string name="invite_us_url">https://thinq.tv/drschaeferspeaking</string>
+    <string name="about_us_url">https://www.thinq.tv/aboutus</string>
+    <string name="no_email_client">There is no email client installed.</string>
+
+    <string name="email_name">Name: </string>
+    <string name="email_phone">Phone: </string>
+    <string name="email_message">Message: </string>
+
+    <string name="app_title_1">appTitle1</string>
+    <string name="app_title_2">appTitle2</string>
+    <string name="app_title_3">appTitle3</string>
+    <string name="app_content_1">appContent1</string>
+    <string name="app_content_2">appContent2</string>
+    <string name="app_content_3">appContent3</string>
+    <string name="failed">FAILED</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thinqtv.thinqtv_android"
+    android:versionCode="3"
+    android:versionName="0.3">
+    <!-- This permission is required in order to get JSON files using Hudson's API -->
+    <!-- Without it, the app cannot access the internet and get outside data -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:name=".App">
+        <activity android:name=".AccountSettingsActivity"/>
+        <activity android:name=".ProfileSettingsActivity"/>
+        <activity android:name=".EditConversationsActivity"/>
+        <activity android:name=".AddEventActivity" />
+        <activity android:name=".StartupLoadingActivity" />
+        <activity android:name=".stripe.StoreActivity" />
+        <activity android:name=".stripe.StripeHostActivity" />
+        <activity android:name=".AddMerchandiseActivity" />
+        <activity android:name=".EditMerchandiseListActivity" />
+        <activity android:name=".stripe.CheckoutActivity" />
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thinqtv.thinqtv_android.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".ConferenceActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:supportsPictureInPicture="true" />
+        <activity android:name=".GetInvolved" />
+        <activity android:name=".AnyWebview">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thinqtv.thinqtv_android.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".NotificationPublisher" />
+    </application>
+
+</manifest>
